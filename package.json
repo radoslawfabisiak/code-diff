@@ -1,0 +1,24 @@
+{
+  "name": "code-diff",
+  "version": "0.1.0",
+  "description": "Line by line code diff with ignoring whitespaces and returning not equal lines as array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radoslawfabisiak/code-diff.git"
+  },
+  "keywords": [
+    "code-diff",
+    "diff",
+    "code-checker"
+  ],
+  "author": "Radoslaw Fabisiak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radoslawfabisiak/code-diff/issues"
+  },
+  "homepage": "https://github.com/radoslawfabisiak/code-diff#readme"
+}
