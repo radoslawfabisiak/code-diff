@@ -1,6 +1,6 @@
 {
   "name": "code-diff",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Line by line code diff with ignoring whitespaces and returning not equal lines as array",
   "main": "index.js",
   "scripts": {
