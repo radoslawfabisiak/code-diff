@@ -1,4 +1,4 @@
 ## How to use
-* Check my code string is different than expected (will return array with differences is they are).
+* Checking code string is different than expected (will return array with yourcode lines if they are different than expectedcode lines).
 * `import codeDiff from 'diff-code'`
 * `const difference = codeDiff(yourcode, expectedcode)`
