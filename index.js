@@ -11,12 +11,12 @@ module.exports = function codeDiff(code, expected) {
     return cleanCode;
   };
 
-  var codeToCompare = codeCleaner(code.split('\n')),
+  var codeToCompare = codeCleaner(code.split('\n')) || [],
     expectedToCompare = codeCleaner(expected.split('\n')),
     errors = [];
 
-  for(var i = 0; i < codeToCompare.length; i++) {
-    if(codeToCompare[i] !== expectedToCompare[i]){
+  for(var i = 0; i < expectedToCompare.length; i++) {
+    if(expectedToCompare[i] !== codeToCompare[i]){
       errors.push(codeToCompare[i]);
     }
   }
